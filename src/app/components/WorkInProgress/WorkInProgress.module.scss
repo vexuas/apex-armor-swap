@@ -1,0 +1,26 @@
+.Container {
+  font-size: 64px;
+}
+.Squirrel {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+}
+.ImagePlaying,
+.ImageDisabled {
+  width: 500px;
+  border: 5px solid red;
+  border-radius: 12px;
+  filter: saturate(1.7);
+  cursor: pointer;
+  transition: transform cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
+}
+.ImagePlaying {
+  transform: scale(1.05);
+}
+.ImageDisabled {
+  filter: grayscale(1);
+  &:hover {
+    filter: grayscale(0.7);
+  }
+}
