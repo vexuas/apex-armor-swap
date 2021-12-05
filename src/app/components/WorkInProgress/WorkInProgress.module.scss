@@ -20,4 +20,7 @@
 }
 .ImageDisabled {
   filter: grayscale(1);
+  &:hover {
+    filter: grayscale(0.7);
+  }
 }
