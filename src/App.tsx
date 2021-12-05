@@ -1,9 +1,9 @@
-import './App.css';
+import styles from './App.module.scss';
 import { WorkInProgress } from './app/components/WorkInProgress';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.Container}>
       <WorkInProgress />
     </div>
   );

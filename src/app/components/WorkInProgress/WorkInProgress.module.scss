@@ -1,3 +1,13 @@
 .Container {
   font-size: 64px;
 }
+.Squirrel {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+}
+.Image {
+  width: 500px;
+  border-radius: 12px;
+  filter: saturate(1.7);
+}
